@@ -21,7 +21,7 @@ Property sources, profiles and conditional beans
     class="text-xl icon-btn opacity-50 !border-none">
     <bx-bxl-spring-boot />
   </a>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
+  <a href="https://github.com/bencemol/slides-configuring-spring" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none">
     <carbon-logo-github />
   </a>
