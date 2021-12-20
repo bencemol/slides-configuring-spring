@@ -9,6 +9,7 @@ drawings:
 
 # cover slide
 class: "text-center"
+background: './assets/SEA-041.jpg'
 ---
 
 # Configuring Spring Boot
