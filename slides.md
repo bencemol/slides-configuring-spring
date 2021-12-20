@@ -58,7 +58,7 @@ Priority from highest to lowest
 
 # YAML 👌
 
-```yaml {all|3|4|5|6|7-10|11-14}
+```yaml {all|3|4|5|6|7-10|11-13}
 my:
   properties:
     number: 69
@@ -66,13 +66,12 @@ my:
     escaped: ':{[.&*#?|-<>+!%@\]}:'
     boolean: true
     list:
-      - And your mom would stick a fork right into daddy's shoulder
-      - And dad would throw the garbage all across the floor
-      - As we would lay and learn what each other's bodies were for
+      - du
+      - du hast
+      - du hast mich
     map:
-      one: eins
-      two: zwei
-      three: drei
+      world: exists
+      devs: 👋
 ```
 
 ---
