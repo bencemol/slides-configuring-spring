@@ -15,7 +15,7 @@ class: "text-center"
 
 Property sources, profiles and conditional beans
 
-<img class="w-1/5 rounded mx-auto mt-5 shadow-lg" src="SEA-041.jpg" alt="Background by Ivan Seal">
+<img class="w-1/5 rounded mx-auto mt-5 shadow-lg" src="/SEA-041.jpg" alt="Background by Ivan Seal">
 
 <div class="abs-br m-6 flex gap-2">
 <!-- TODO update github link -->
