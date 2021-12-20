@@ -1,0 +1,20 @@
+/* footnotes */
+.footnotes-sep {
+  @apply opacity-10;
+}
+.footnotes {
+  @apply text-xs opacity-65;
+}
+.footnote-backref {
+  display: none;
+}
+
+/* links */
+.slidev-layout a {
+  border-style: solid;
+}
+
+/* lists */
+.slidev-layout ul {
+  list-style: disc;
+}
