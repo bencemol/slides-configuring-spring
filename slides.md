@@ -9,12 +9,13 @@ drawings:
 
 # cover slide
 class: "text-center"
-background: './assets/SEA-041.jpg'
 ---
 
 # Configuring Spring Boot
 
 Property sources, profiles and conditional beans
+
+<img class="w-1/5 rounded mx-auto mt-5 shadow-lg" src="SEA-041.jpg" alt="Background by Ivan Seal">
 
 <div class="abs-br m-6 flex gap-2">
 <!-- TODO update github link -->
@@ -126,9 +127,9 @@ public class AuthenticationService {
   private final Long jwtExpiration;
 
   public AuthenticationService(
-    @Value('${jwt.expiration-date:10000}') Long jwtExpiration
+    @Value('${jwt.expiration-time:10000}') Long jwtExpiration
   ) {
-    this. jwtExpiration = jwtExpiration;
+    this.jwtExpiration = jwtExpiration;
   }
 }
 ```
@@ -268,6 +269,7 @@ public class Saml2SecurityConfigurer {
   // ...
 }
 ```
+
 <v-clicks>
 <div>
 
@@ -280,11 +282,12 @@ public FlywayMigrationStrategy repairStrategy() {
   // ...
 }
 ```
+
 </div>
 
 <div>
 
-##### Conditional 
+##### Conditional
 
 <div class="grid grid-cols-2 gap-2">
 
@@ -301,6 +304,7 @@ public MyBean myBean() {
   // ...
 }
 ```
+
 </div>
 </div>
 </v-clicks>
