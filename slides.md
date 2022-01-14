@@ -113,7 +113,7 @@ Injecting properties directly
 @Service
 public class AuthenticationService {
 
-  @Value('${jwt.expiration-time:10000}')
+  @Value("${jwt.expiration-time:10000}")
   private Long jwtExpiration;
 }
 ```
@@ -126,7 +126,7 @@ public class AuthenticationService {
   private final Long jwtExpiration;
 
   public AuthenticationService(
-    @Value('${jwt.expiration-time:10000}') Long jwtExpiration
+    @Value("${jwt.expiration-time:10000}") Long jwtExpiration
   ) {
     this.jwtExpiration = jwtExpiration;
   }
@@ -142,6 +142,7 @@ Injecting through configuration classes
 ```java {all|1|2|all}
 @ConfigurationProperties(prefix = "jwt")
 @ConstructorBinding
+@RequiredArgsConstructor
 @Getter
 public class JwtProperties {
 
